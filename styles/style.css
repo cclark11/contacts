@@ -1,0 +1,22 @@
+* {
+    box-sizing:border-box;
+}
+
+@media screen and (min-width: 500px) {
+}
+.box{
+    display:flex;
+}
+.contactform {
+    flex:1;
+    padding-left:5%;
+}
+.contactDetails {
+    width:35%;
+    padding-right:5%;
+    padding-top:62px;
+}
+#firstName, #lastName, #phone, #street, #city, #state{
+    margin-top:5px;
+    margin-bottom:10px;
+}
